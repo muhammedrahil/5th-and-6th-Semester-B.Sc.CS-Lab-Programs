@@ -1,0 +1,62 @@
+﻿import java.util.Scanner;
+
+interface Volume{
+    double pi = 3.14;
+    public void dispvolume();
+    public void readdata();
+}
+
+class cylinder implements Volume{
+    double r,h,vol;
+    public void readdata(){
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter radius of cylinder");
+        r = in.nextInt();
+        System.out.println("enter height of cylinder");
+        h = in.nextInt();
+        vol = pi*r*r*h;
+    }
+    public void dispvolume(){
+        System.out.println("volume of cylinder"+" " + vol);
+    }
+    
+}
+
+class sphere implements Volume{
+    double r,vol;
+    public void readdata(){
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter radius of sphere");
+        r = in.nextInt();
+        vol = (4/3*pi)*r*r*r;
+    }
+    public void dispvolume(){
+        System.out.println("volume of sphere" +" " +vol);
+    }
+    
+}
+
+
+class Main {
+  public static void main(String[] args) {
+    int option;
+    System.out.println("1)cylinder , 2) sphere: ");
+    Scanner in = new Scanner(System.in);
+    option = in.nextInt();
+    if(option == 1){
+    cylinder cil = new cylinder();
+    cil.readdata();
+    cil.dispvolume();
+    }
+    else if (option == 2){
+    sphere sph = new sphere();
+    sph.readdata();
+    sph.dispvolume();
+    }
+    else{
+        System.out.println("invalid option");
+    }
+    }
+  }
+
+

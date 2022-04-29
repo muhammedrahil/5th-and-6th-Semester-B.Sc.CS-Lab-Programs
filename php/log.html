@@ -1,0 +1,38 @@
+<html>
+<head>
+<h1 align="center"> log in page</h1>
+<script type="text/javascript" language="javascript">
+function validate(form)
+{
+ if(formlogin.txtname.value==""|| formlogin.txtpassword.value=="")
+ {
+  alert("empty username or password");
+   return false;
+ }return true;
+}
+</script>
+<title> Login Page</title>
+</head>
+<body onload="document.formlogin.txtname.focus(); " BGCOLOR="RED">
+<form name="formlogin" method="post" action="log.php">
+<tr>
+
+<h2>LOGIN FORM</h2>
+
+</tr>
+<tr>
+<td>USER NAME</td>
+<td><input type="text" name="txtname"  size="20"/></td>
+</tr>
+<tr>
+<td>PASSWORD</td>
+<td><input type="password" name="txtpassword" size="20"/></td>
+</tr>
+<tr><input type="submit"name="cmdsubmit"value="LogIn"onclick="return validate(document.formlogin);"/>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
