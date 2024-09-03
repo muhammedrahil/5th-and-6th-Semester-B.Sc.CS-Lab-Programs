@@ -21,3 +21,10 @@
 ## PHP
 
 ![Screenshot 2024-09-03 185250](https://github.com/user-attachments/assets/b1ede34d-3c06-4b5b-b3f5-869b4bcfda79)
+
+## Shell Programs
+
+![Screenshot 2024-09-03 185259](https://github.com/user-attachments/assets/c654f393-ffeb-4f1a-b5f9-73b457b05128)
+
+
+
