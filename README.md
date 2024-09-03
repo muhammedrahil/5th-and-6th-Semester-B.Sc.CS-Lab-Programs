@@ -7,6 +7,8 @@
 ![Screenshot 2024-09-03 185150](https://github.com/user-attachments/assets/33d655fe-e210-47f4-aae5-bdc8a9c1b5de)
 
 
+## Java Programs 
 
+- ![Screenshot 2024-09-03 185208](https://github.com/user-attachments/assets/2a30a90a-b6f9-4a1b-bae8-d71ee63defda)
 
-
+- ![Screenshot 2024-09-03 185222](https://github.com/user-attachments/assets/7e1a11d1-9df8-47b9-ba7a-ee90f4689f02)
